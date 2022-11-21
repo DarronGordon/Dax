@@ -1,0 +1,12 @@
+
+
+.about-building{
+    display: flex;
+    position: relative;
+    left:4rem;
+    top:3rem;
+background-color: brown;
+color: azure;
+width: 200px;
+height: 300px;
+}
