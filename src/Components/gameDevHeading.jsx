@@ -1,5 +1,5 @@
 import React from "react";
-import "./Styles/gameDev.css";
+import "./Styles/gameDev.scss";
 function GameDevHeading(){
   return(<div className="gameDevHeading">
   <div className="gameDevImg">

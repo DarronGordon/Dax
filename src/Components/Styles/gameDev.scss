@@ -1,0 +1,481 @@
+
+.Game{
+    background-image: url("Images/Game.png");
+  }
+  .Game1{
+    background-image: url("Images/Game1.png");
+  }
+  .Game2{
+    background-image: url("Images/Game2.png");
+  }
+  .Game3{
+    background-image: url("Images/Game3.png");
+  }
+  .Game4{
+    background-image: url("Images/Game4.png");
+  }
+  .Game5{
+    background-image: url("Images/Game5.png");
+  }
+  .Game6{
+    background-image: url("Images/Game6.png");
+  }
+  .Game7{
+    background-image: url("Images/Game7.png");
+  }
+  .Game8{
+    background-image: url("Images/Game8.png");
+  }
+  .Game9{
+    background-image: url("Images/Game9.png");
+  }
+  .Game10{
+    background-image: url("Images/Game10.png");
+  }
+  .Game11{
+    background-image: url("Images/Game11.png");
+  }
+  .Game12{
+    background-image: url("Images/Game12.png");
+  }
+  .Game13{
+    background-image: url("Images/SS.png");
+  }
+  .Game14{
+    background-image: url("Images/SS1.png");
+  }
+
+
+html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.gameDevContainer
+{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.gameDevImg{
+    background-image: url("Images/GameDeveloperHeader.jpg");
+    height:45vw;
+    margin: 0;
+    padding:0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    position:static;
+  
+  }
+
+  
+.gameDevHeading {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+  }
+  
+  .gameDevHeading h3{
+    margin:0;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+  }
+  .gameDevHeading a{
+    color:grey;
+  }
+  .gameDevHeading a:hover{
+    color:lightblue;
+    font-size: 1.2em;
+  }
+
+  
+  .gameDevBody {
+    background-color: black;
+      margin: 0 ;
+    }
+
+    .slideContainer{
+        width: 80vw;
+        height: 100%;
+        margin: 0 auto;
+        display: inline-block;
+      }
+      
+      .slide > div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: contain;
+        background-position: 50% 50%;
+        background-repeat:no-repeat;
+        height:50vh;
+      }
+
+      .cvLink{
+
+        margin: auto;
+        margin-top: 5vh;
+          text-align: center
+    }
+    .itchlink{
+        margin: auto;
+        margin-top: 5vh;
+          text-align: center
+    }
+    .gameDevSidePanel{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-self: center;
+        margin: auto;
+        text-align: center;
+        font-size: 3rem;
+        background-color: #362222;
+        color: white;
+        width:90vw;
+        border-radius:1%;
+
+        p{
+            font-size: 3rem;
+        }
+
+      }
+
+      .skills{
+        justify-content: center;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin-right: 2rem;
+        align-items: center;
+        li{
+            list-style: none;
+            margin: .8rem;
+        }
+      }
+
+
+      .skillsBar{
+        align-items: center;
+        margin: 2rem;
+        width: 60%;
+        justify-content: center;
+
+
+        .Level-Design {width: 65%; background-color:lightgreen; margin-bottom: 1.2rem; align-items: center;}
+        .Game-Mechanics{width: 90%; background-color:lightblue; margin-bottom: 1.2rem;}
+        .Source-Control{width: 25%; background-color:lightgrey; margin-bottom: 1.2rem;}
+        .Sound{width: 10%; background-color:pink; margin-bottom: 1.2rem;}
+        .Net {width: 72%; background-color:#2196F3; margin-bottom: 1.2rem;}
+      }
+
+      .gameDevLinks{
+        display: flex;
+        flex-direction: column;
+
+        a{
+            margin: 1rem;
+            color: white;
+        }
+        
+        a:hover{
+            margin: 1rem;
+            color: rgb(217, 255, 0);
+        }
+      }
+
+      .gameDevAbout{
+        padding: 2vh 2vh;
+  color: white;
+  border-radius: 2%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.4em;
+      }
+
+      .gameDevRefContainer{
+       color: wheat;
+      }
+      .three-images{
+        display: flex;
+        flex-direction: column;
+        width: 75vw;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+       font-size: 2rem;
+        
+       li{
+        list-style: none;
+       }
+       
+        }
+        .three-image h4{
+            text-align: center;
+            vertical-align: middle;
+            margin-top: 30%;
+          }
+          
+          .three-images h4{
+            text-align: center;
+            vertical-align: middle;
+          
+          }
+          .three-image{
+            border-radius: 100%;
+            margin:auto;
+            margin-bottom: 5%;
+            margin-top: 5%;
+              border: 2px solid black;
+            }
+          
+          .imgone{
+            width: 200px;
+            height: 200px;
+          background-color: red;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+          
+          }
+          .imgone:hover{
+            background-color: pink;
+            width: 210px;
+            height: 210px;
+            cursor: pointer;
+            border: none;
+            box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.5);
+          }
+          
+          .imgtwo{
+          
+              width: 200px;
+              height: 200px;
+            background-color: blue;
+          }
+          .imgtwo:hover{
+          
+              width: 210px;
+              height: 210px;
+            background-color: lightblue;
+            border: none;
+            box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.5);
+            cursor: pointer;
+          }
+          .imgthree{
+          
+              width: 200px;
+              height: 200px;
+            background-color: green;
+          
+          }
+          .imgthree:hover{
+            border: none;
+            box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.5);
+              width: 210px;
+              height: 210px;
+            background-color: lightgreen;
+            cursor: pointer;
+          
+          }
+
+
+          .disc{
+            background-color:#455f7c;
+            width:100%;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            vertical-align: middle;
+            border-radius: 2%;
+            
+            }
+            
+            .disc h2{
+              text-align: center;
+                font-family: 'Fredoka One', cursive;
+            }
+            .disc h3{
+              text-align: center;
+              font-family: 'Fredoka One', cursive;
+            }
+            .disc li{
+              margin-right: 60px;
+              list-style: none;
+              text-align: center;
+              font-family: 'Fredoka One', cursive;
+            }
+
+            .grid-box{
+                margin-bottom:5rem;
+            }
+
+            .pg-gitgud{
+                padding: 1.2rem;
+            }
+            .pg-link{
+                color: wheat;
+            }
+            .cvLink h3 a{
+                color: white;
+            }
+            .linkz h4 a{
+                color: white;
+            }
+            .cvLink h3 a:hover{
+                color: rgb(218, 255, 7);
+            }
+            .linkz h4 a:hover{
+                color: rgb(218, 255, 7);
+            }
+
+            .GP_Main{
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                text-align: center;
+                margin:auto;
+                align-items: center;
+                height: 180vh;
+              }
+              .GP_Main h1{
+                margin: auto;
+                font-size: 4.5rem;
+                font-family: 'Fredoka One', cursive;
+                text-decoration: underline;
+                margin-bottom: 1.8rem;
+                align-items: center;
+                color: white;
+              }
+              
+              .Gp_box .linkz h4 a{
+                color: white;
+                background-color: black;
+                margin: 0;
+                padding: 2%;
+                font-size: 1.3rem;
+              }
+              
+              
+              .Gp_box{
+                display: inline-block;
+                text-align: center;
+                margin: 3%;
+                vertical-align: middle;
+                background-image: url("Images/AwesomeHeader1.jpg");
+                background-size: contain;
+                background-position: center;
+                border-radius: 5%;
+                height: 40vh;
+                width: 80vw;
+              }
+              .Gp_box:hover{
+                display: inline-block;
+                text-align: center;
+                margin: 2%;
+                background-color:grey;
+                vertical-align: middle;
+                height: 45vh;
+                width: 85vw;
+              }
+
+
+
+
+
+              //GAMES//
+              .FrankosHat{
+                background-image: url("Images/Game3.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                height: 80%;
+              }
+              
+              .FrankosHat:hover{
+                background-image: url("Images/Game1.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                height: 80%;
+              }
+              
+              .anxi{
+                background-image: url("Images/Game4.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                height: 80%;
+              }
+              .anxi:hover{
+                background-image: url("Images/Game5.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                height: 80%;
+              }
+              
+              .RFR{
+                background-image: url("Images/Game6.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                height: 80%;
+              }
+              .RFR:hover{
+                background-image: url("Images/Game6.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                height: 80%;
+              }
+              .life{
+                background-image: url("Images/Game11.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                height: 80%;
+              }
+              .life:hover{
+                background-image: url("Images/Game10.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                height: 80%;
+              }
+              .p2d{
+                background-image: url("Images/Game9.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                height: 80%;
+              }
+              .p2d:hover{
+                background-image: url("Images/Game8.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                height: 80%;
+              }
+              .colour{
+                background-image: url("Images/SS1.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                height: 80%;
+              }
+              .colour:hover{
+                background-image: url("Images/SS.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                height: 80%;
+              }
+              
+          

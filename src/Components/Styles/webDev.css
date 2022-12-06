@@ -2,8 +2,10 @@
 /*font-family: 'Fira Sans Condensed', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
 .devBody{
     font-family: 'Patrick Hand', cursive;
+    overflow: hidden;
 
 }
 
@@ -16,12 +18,53 @@ margin-bottom: 5%;
 }
 
 .webDevProfile{
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
   background-color: #FFE6E6;
-  width: 80vw;
-  height: 40vh;
-  padding:5%;
-      box-shadow:1px 1px 1px 1px grey;
+  opacity: .9;
+  text-align: center;
+  background-image:url("./Images/webDevInfoBg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 75vw;
+  height: 20vh;
+  padding:0;
+  padding-top: .5rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  color:rgb(0, 0, 0);
+  
 }
+
+
+.webDevIntroLeft{
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  opacity: .9;
+  text-align: center;
+  background-image:url("./Images/webDevInfoBgTwo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 75vw;
+  height: 20vh;
+  padding:0;
+  padding-top: .5rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  color:rgb(0, 0, 0);
+  margin-left: 25vw;
+  margin-top: 2.5rem;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  opacity: .7.5;
+}
+.webDevIntroLeft h4{
+  font-size:2.5rem;
+  text-align: left;
+  margin:10%;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
 
  .webDevProfileNxt{
   background-color: #FFE6E6;
@@ -32,7 +75,7 @@ margin-bottom: 5%;
 }
 
 .webDevProfile h4{
-  font-size:1.2rem;
+  font-size:2.5rem;
   text-align: left;
   margin:10%;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -71,6 +114,58 @@ transition: .2s linear;
 .gallery > img:nth-child(4) { --_y: calc(-50% - .5*var(--g)); }
 .gallery > img:nth-child(5),
 .gallery > img:nth-child(6) { --_y: calc( 50% + .5*var(--g)); }
+
+.GP_MainW{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+  margin:auto;
+  align-items: center;
+  height: 40vh;
+}
+.GP_MainW h1{
+  margin: auto;
+  font-size: 4.5rem;
+  font-family: 'Fredoka One', cursive;
+  text-decoration: underline;
+  margin-bottom: 1.8rem;
+  align-items: center;
+  color: white;
+}
+
+.Gp_boxW .linkz h4 a{
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 2%;
+  font-size: 1.3rem;
+}
+
+
+.Gp_boxW{
+  display: inline-block;
+  text-align: center;
+  margin: 3%;
+  vertical-align: middle;
+  background-image: url("Images/AwesomeHeader1.jpg");
+  background-size: contain;
+  background-position: center;
+  border-radius: 5%;
+  height: 40vh;
+  width: 80vw;
+}
+.Gp_boxW:hover{
+  display: inline-block;
+  text-align: center;
+  margin: 2%;
+  background-color:grey;
+  vertical-align: middle;
+  height: 45vh;
+  width: 85vw;
+}
+
+
 @media(min-width:50rem)
 {
   .devHeader{
@@ -176,7 +271,7 @@ list-style: none;
   width: 80%;
   margin:auto;
       background-color: #C6DCE4;
-      font-size:1.5rem;
+      font-size:2.5rem;
       display: block;
 }
 
@@ -185,13 +280,14 @@ display: none;
 }
 
 .skillbar{
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   text-align: left;
 }
 
 .devBody h3{
   text-align: center;
   margin:auto;
+  font-size: 2.5rem;
 }
 
 .skills {
@@ -232,12 +328,12 @@ display: none;
 
 .webDevSkillBod button{
 animation: wiggle 200ms 1s 8 alternate;
-  height: 4vh;
-  width: auto;
+  height: 5vh;
+  width: 20vw;
   margin:auto;
   cursor: pointer;
   background-color: #7ab7f1;
-
+font-size: 2rem;
 }
 
 .webDevSkillBod button:hover{
@@ -272,7 +368,7 @@ background-color: #0e7de6;
 }
 
 .webSkillTree{
-  font-size: 1rem;
+  font-size: 1.8rem;
 }
 
 @keyframes wiggle{

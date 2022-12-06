@@ -1,15 +1,27 @@
 footer {
+
   color: white;
   background-color: grey;
   position: relative;
   height: 20vh;
-  width: 100;
+  width: 100%;
   min-height: 20em;
   text-align: center;
   overflow: hidden;
   z-index: -1;
   margin:0;
   padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
 }
 footer .Development {
 
@@ -34,7 +46,7 @@ footer  .GameDevelopment  {
   background-repeat: no-repeat;
   padding: .5%;
   position: relative;
-  height: 20vh;
+  height: 100%;
   min-height: 20em;
   text-align: center;
   overflow: hidden;
@@ -44,12 +56,11 @@ footer  .GameDevelopment  {
 footer .down-below {
   border-radius: 50%;
   background-color: black;
-  display: block;
   position: absolute;
   top: 50%;
-  left: 0%;
-  margin-left: -10em;
-  width: 120%;
+overflow: hidden;
+font-size: 1.5rem;
+  width: 120vw;
   height: 100%;
 }
 
@@ -60,61 +71,11 @@ footer .down-below {
   background-size: 100% 100%;
   height: 200px;
   width: 200px;
-  display: block;
   z-index:10;
   margin:auto;
 }
 
-@media(max-width:1000px){
-  footer {
-    color: white;
-    background-color: grey;
-    position: relative;
-    height: 20vh;
-    width: 100;
-    min-height: 20em;
-    text-align: center;
-    overflow: hidden;
-    z-index: -1;
-    margin:0;
-    padding: 0;
-  }
-
-       footer .down-below {
-        border-radius: 50%;
-        background-color: black;
-        display: block;
-          margin: auto;
-        width: 100vw;
-        height: 40vh;
-      }
-      footer .smbtns ul{
-
-         margin: 6% 6% 0 0;
-         text-align: center;
-     }
-      footer .smbtns li{
-         margin-top: 5%;
-         margin: 1%;
-         text-align: center;
-     }
-
-          footer  .GameDevelopment  {
-
-            color: white;
-            background-image: url("Images/AwesomeHeaderWBG.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            position: relative;
-            min-height: 20em;
-            text-align: center;
-            overflow: hidden;
-            margin: auto;
-          }
-
-          footer .info{
-            margin: auto;
-            margin-top:2%;
-          }
+.contact a{
+  color: rgb(21, 182, 74);
+  font-size:2rem ;
 }

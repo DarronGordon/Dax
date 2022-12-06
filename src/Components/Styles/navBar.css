@@ -60,7 +60,6 @@ display: none;
   color:white;
 }
 
-
 .main-navBod {
   display: inline-block;
   text-align: right;
@@ -94,10 +93,11 @@ display: none;
 .mobile-navItem {
   margin: 1rem 0;
     list-style: none;
+    font-size: 8rem;
 }
 
 .mobile-navItem a {
-  font-size: 1.5rem;
+  font-size: 5rem;
 }
 
 .toggle-button {

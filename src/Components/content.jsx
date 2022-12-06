@@ -13,7 +13,7 @@ const content=[{
 },{
 title:"Dev",
 content:"I have a passion to learn and gain experience. I enjoy the challenges, problem solving and new experiences I find myself having in the development world.",
-profile:"I am self taught, I build and manage sites, I am eager to work with people to create an experience and produce great App's."
+profile:"I am self taught, I am eager to work with people to create an experience and produce great Software and applications."
 
 },{
   title:"GameDevelopment",

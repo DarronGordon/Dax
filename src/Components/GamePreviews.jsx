@@ -1,6 +1,6 @@
 
 import React from "react";
-import "./Styles/gameDev.css";
+import "./Styles/gameDev.scss";
 import CreatePreviewBox from "./PreviewBox";
 
 function GamePreviews(){

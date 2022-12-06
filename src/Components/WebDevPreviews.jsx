@@ -6,7 +6,7 @@ import CreateWebDevPreviewBox from "./WebDevPreviewBox";
 function WebDevPreviews(){
 
   return(<div>
-<div className="GP_Main">
+<div className="GP_MainW">
 <div className="gallery">
 <CreateWebDevPreviewBox
 imgURL = "/Images/coldBG.png"

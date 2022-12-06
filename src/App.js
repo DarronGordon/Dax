@@ -8,17 +8,17 @@ import GameDevelopment from "./Components/GameDevelopment";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
-import "./Components/Styles/gameDev.css";
 import "./Components/Styles/webDev.css";
-import "./Components/Styles/main.css";
+import "./Components/Styles/gameDev.scss";
 import "./Components/Styles/anim.css";
 import "./Components/Styles/Footer.css";
 import "./Components/Styles/contact.css";
 import "./Components/Styles/navBar.css";
+import "./Components/Styles/App.css";
 
 function App(){
 
-  return ( <div >
+  return ( <div className='appContainer' >
    <Router>
       <NavBar />
       <Routes>

@@ -18,7 +18,6 @@ const  Slider =()=>
       <div className="slide" key={slide}>
         <div className={SlideImagesGameDev[index]}>
 
-<span>Slide {index +1}</span>
 </div>
 </div>
 );

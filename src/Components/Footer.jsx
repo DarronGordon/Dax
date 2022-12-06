@@ -27,7 +27,7 @@ console.log(pathname);
                           </div>
 
                         <div class="contact">
-                            <a href="mailto:darronmgordon@gmail.com" title="Email me" rel="me" target="_blank">darronmgordon@gmail.com</a>
+                            <a href="mailto:darronmgordon@gmail.com" subject="subject text" title="Email me" rel="me" target="_blank">darronmgordon@gmail.com</a>
                         </div>
 
                         <div class="info">
