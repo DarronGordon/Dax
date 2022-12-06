@@ -1,0 +1,120 @@
+footer {
+  color: white;
+  background-color: grey;
+  position: relative;
+  height: 20vh;
+  width: 100;
+  min-height: 20em;
+  text-align: center;
+  overflow: hidden;
+  z-index: -1;
+  margin:0;
+  padding: 0;
+}
+footer .Development {
+
+  color: white;
+  background-color: lightblue;
+  position: relative;
+  height: 20vh;
+  width: 100%;
+  min-height: 20em;
+  text-align: center;
+  overflow: hidden;
+  z-index: -1;
+  margin:0;
+  padding:0;
+}
+
+footer  .GameDevelopment  {
+  fontFamily: 'Patrick Hand';
+  color: white;
+  background-image: url("AwesomeHeaderWBG.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: .5%;
+  position: relative;
+  height: 20vh;
+  min-height: 20em;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+footer .down-below {
+  border-radius: 50%;
+  background-color: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  margin-left: -10em;
+  width: 120%;
+  height: 100%;
+}
+
+
+.footerLogo {
+  background-image: url("logo2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 200px;
+  width: 200px;
+  display: block;
+  z-index:10;
+  margin:auto;
+}
+
+@media(max-width:1000px){
+  footer {
+    color: white;
+    background-color: grey;
+    position: relative;
+    height: 20vh;
+    width: 100;
+    min-height: 20em;
+    text-align: center;
+    overflow: hidden;
+    z-index: -1;
+    margin:0;
+    padding: 0;
+  }
+
+       footer .down-below {
+        border-radius: 50%;
+        background-color: black;
+        display: block;
+          margin: auto;
+        width: 100vw;
+        height: 40vh;
+      }
+      footer .smbtns ul{
+
+         margin: 6% 6% 0 0;
+         text-align: center;
+     }
+      footer .smbtns li{
+         margin-top: 5%;
+         margin: 1%;
+         text-align: center;
+     }
+
+          footer  .GameDevelopment  {
+
+            color: white;
+            background-image: url("AwesomeHeaderWBG.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            min-height: 20em;
+            text-align: center;
+            overflow: hidden;
+            margin: auto;
+          }
+
+          footer .info{
+            margin: auto;
+            margin-top:2%;
+          }
+}

@@ -1,0 +1,314 @@
+
+/*font-family: 'Fira Sans Condensed', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.devBody{
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+.devHeader h1{
+  text-align: center;
+font-family: "WebDevHeader",sans-serif;
+font-size:3rem;
+margin: auto;
+margin-bottom: 5%;
+}
+
+.webDevProfile{
+  background-color: #FFE6E6;
+  width: 80vw;
+  height: 40vh;
+  padding:5%;
+      box-shadow:1px 1px 1px 1px grey;
+}
+
+ .webDevProfileNxt{
+  background-color: #FFE6E6;
+  width: 80vw;
+  height: 40vh;
+  margin-top:15%;
+      box-shadow: 1px 1px 1px 1px grey;
+}
+
+.webDevProfile h4{
+  font-size:1.2rem;
+  text-align: left;
+  margin:10%;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.gallery {
+  --s: 120px; /* control the size */
+  --g: 10px;  /* control the gap */
+  display: grid;
+  text-align: center;
+  margin: 10rem 7rem;
+}
+.gallery > img {
+  grid-area: 1/1;
+  width: var(--s);
+  aspect-ratio: 1.15;
+  object-fit: cover;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50% ,75% 100%, 25% 100%, 0 50%);
+    transform: translate(var(--_x,0),var(--_y,0)) scale(var(--_t,1));
+  cursor: pointer;
+filter: grayscale(80%);
+transition: .2s linear;
+}
+.gallery > img:hover {
+  filter: grayscale(0);
+  z-index: 1;
+  --_t: 1.2;
+}
+.gallery > img:nth-child(1) { --_y: calc(-100% - var(--g)); }
+.gallery > img:nth-child(7) { --_y: calc( 100% + var(--g)); }
+.gallery > img:nth-child(3),
+.gallery > img:nth-child(5) { --_x: calc(-75% - .87*var(--g)); }
+.gallery > img:nth-child(4),
+.gallery > img:nth-child(6) { --_x: calc( 75% + .87*var(--g)); }
+.gallery > img:nth-child(3),
+.gallery > img:nth-child(4) { --_y: calc(-50% - .5*var(--g)); }
+.gallery > img:nth-child(5),
+.gallery > img:nth-child(6) { --_y: calc( 50% + .5*var(--g)); }
+@media(min-width:50rem)
+{
+  .devHeader{
+font-family: "WebDevHeader",sans-serif;
+animation: wiggle-nudge 100ms ease-out;
+  }
+
+  .webDevMidBod{
+    width: 60%;
+    margin: 10vw;
+        background-color: #C6DCE4;
+}
+
+.gallery {
+  --s: 180px; /* controls the size */
+    --g: 20px;  /* control the gap */
+  display: grid;
+  place-content: center;
+  margin: 13rem 7rem;
+}
+
+.gallery > img {
+  grid-area: 1/1;
+  width: var(--s);
+  aspect-ratio: 1.15;
+  object-fit: cover;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+    transform: translate(var(--_x,0),var(--_y,0)) scale(var(--_t,1));
+  cursor: pointer;
+filter: grayscale(80%);
+transition: .2s linear;
+}
+.gallery > img:hover {
+  filter: grayscale(0);
+  z-index: 1;
+  --_t: 1.2;
+}
+
+.ClickMeContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+text-align: center;
+vertical-align: middle;
+align-items: center;
+}
+
+.ClickMeItem{
+justify-content: center;
+margin: 0;
+vertical-align: middle;
+text-align: center;
+}
+
+
+  }
+
+
+
+.webDevSkillBod{
+  margin: 5%;
+  text-align: center;
+  display: block;
+}
+
+.webDevBot{
+    background-color:#FFE6E6;
+    width: 60vw;
+    height: 30vh;
+    margin: auto;
+    padding: 8vh 2vw;
+    text-align: center;
+    margin-right: 0;
+    margin-top: 9vh;
+    margin-bottom: 9vh;
+
+}
+.webDevHr{
+  margin: auto;
+  width: 4vw;
+}
+
+
+.frameworkBod{
+  padding-top: 2%;
+  padding-bottom: 5vh;
+  display: inline-block;
+  width:50%;
+vertical-align: top;
+text-align: left;
+list-style: none;
+
+}
+.frameworkBod2{
+    padding: 2%;
+      display:inline-block;
+        width: 50%;
+        vertical-align: top;
+}
+
+.webDevMidBod{
+  width: 80%;
+  margin:auto;
+      background-color: #C6DCE4;
+      font-size:1.5rem;
+      display: block;
+}
+
+.webDevMidBodOff{
+display: none;
+}
+
+.skillbar{
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.devBody h3{
+  text-align: center;
+  margin:auto;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 2px; /* Add top padding */
+  padding-bottom: 2px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+
+.C {width: 92%; background-color: orange;}
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.CSS {width: 94%; background-color: #2196F3;} /* Blue */
+.JavaScript {width: 75%; background-color: #f44336;} /* Red */
+.ReactJS {width: 80%; background-color: #808080;} /* Dark Grey */
+.NodeJS {width: 73%; background-color:pink;}
+.Python {width: 45%; background-color:lightgreen;}
+.Bootstrap {width: 90%; background-color:lightblue;}
+.Unity {width: 95%; background-color:Black;}
+.SQL{width: 50%; background-color:lightgrey;}
+.MongoDB{width: 55%; background-color:#C7D36F;}
+
+
+.WebDevGp_box{
+  height: 40vh;
+  width: 40vw;
+  background-color: #C6DCE4;
+  display: inline-block;
+  margin: 2%;
+  color: black;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+.WDlink h4 a{
+  color: black;
+  animation: wiggle 200ms 1s 8 alternate;
+}
+
+.webDevSkillBod button{
+animation: wiggle 200ms 1s 8 alternate;
+  height: 4vh;
+  width: auto;
+  margin:auto;
+  cursor: pointer;
+  background-color: #7ab7f1;
+
+}
+
+.webDevSkillBod button:hover{
+  width: auto;
+  height: 5vh;
+animation: wiggle-nudge 100ms ease-out;
+
+background-color: #0e7de6;
+  cursor: pointer;
+}
+
+.toggle-statsBar {
+  width: 100%;
+  height: 0.2rem;
+  background: black;
+  display: block;
+  margin: 0.6rem 0;
+}
+.webdisc {
+
+  margin: auto;
+  text-align: center;
+}
+.webdisc ul,
+.webdisc h2,
+.webdisc h3,
+.webdisc h4,
+.webdisc {
+  list-style: none;
+  margin: auto;
+  text-align: center;
+}
+
+.webSkillTree{
+  font-size: 1rem;
+}
+
+@keyframes wiggle{
+  0%{
+    transform:rotateZ(0);
+  }
+  50%{
+    transform:rotateZ(-10deg);
+  }
+  100%{
+
+      transform:rotateZ(10deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes wiggle-nudge{
+  0%{
+    transform: translateX(0px);
+  }
+  50%{
+      transform: translateX(-3px);
+  }
+  100%{
+
+      transform: translateX(3px);
+  }
+}
+@keyframes blinker {
+  50% { opacity: 0.0; }
+}

@@ -1,0 +1,62 @@
+
+.contactme {
+  text-align: center;
+margin: auto;
+  margin-bottom: 15vh;
+  font-family: 'Patrick Hand', cursive;
+  background-color:  #FCF9C6;
+width: 80vw;
+padding-top: 10%;
+}
+
+.contact {
+  color: white;
+  margin: 1%;
+}
+
+.gdcvLinkCon a{
+  color: black;
+}
+.wdcvLinkCon a{
+  color: black;
+}
+@media(min-width:50rem)
+{
+  .contactme {
+    text-align:left;
+  margin:5%;
+padding: 1%;
+    font-family: 'Patrick Hand', cursive;
+    background-color:  #FCF9C6;
+  width: 40%;
+    animation: wiggle 200ms 1s 4 alternate;
+vertical-align: top;
+  }
+
+  .contact {
+    color: white;
+    margin: 1%;
+
+  }
+
+  .gdcvLinkCon a{
+    color: black;
+
+  }
+  .wdcvLinkCon a{
+    color: black;
+
+  }
+}
+@keyframes wiggle{
+  0%{
+    transform:rotateZ(0);
+  }
+  50%{
+    transform:rotateZ(-5deg);
+  }
+  100%{
+
+      transform:rotateZ(5deg);
+  }
+}
