@@ -5,6 +5,7 @@ import NavBar from "./Components/navBar";
 import Home from "./Components/Home";
 import Development from "./Components/Development";
 import GameDevelopment from "./Components/GameDevelopment";
+import  MartialArts  from './Components/MartialArts';
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
@@ -25,6 +26,7 @@ function App(){
         <Route path='/'  element={<Home  />} />
         <Route path='/Development' element={<Development />} />
         <Route path='/GameDevelopment' element={<GameDevelopment />} />
+        <Route path='/MartialArts' element={<MartialArts />} />
         <Route path='/Contact' element={<Contact />} />
       </Routes>
     </Router>

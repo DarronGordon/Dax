@@ -223,6 +223,9 @@ padding: 0;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+      background-image: linear-gradient(white,rgb(18, 29, 4));
+      margin-top:9rem;
+      padding: 0;
       }
       
   .homeIntro{
@@ -261,7 +264,7 @@ padding: 0;
   animation: rotateHeading 0.8s;
   margin-top:6rem;
   margin-bottom: 2rem;
-  width:60vw;
+  width:40vw;
 }
 .homeIntro h4:hover {
 
@@ -270,12 +273,12 @@ padding: 0;
 
 .introP {
   font-family: 'Patrick Hand', 'Philosopher', sans-serif;
-  font-size:3rem;
+  font-size:3.5rem;
   color: black;
   text-align: center;
   padding-left: 9px;
   width: 50vw;
-  margin-top: 2rem;
+  margin-top:4.5rem;
 }
 
   .neutral .logo {
@@ -332,21 +335,27 @@ padding: 0;
     align-items: center;
     vertical-align: middle;
     margin: auto;
+    
     h2{
-      width: 20vw;
+      width: 100vw;
         font-size: 3.5rem;
+        color: #f5a66a;
     }
 }
   .neutral .homecol {
-    background-color: #9EB23B;
+    
+    background-image:radial-gradient(#cef027,#9EB23B);
     margin: auto;
     text-align: center;
+    align-items: center;
+    align-self: center;
     height:100%;
-    margin-top: .5rem;
     margin-bottom:2rem;
-    width: 40%;
-    height: 15vh;
+    width: 20vw;
+    height: 10vh;
     padding: 1.5rem;
+    margin: 3.5rem;
+    border-radius: 2%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     h3{
         font-size: 3.5rem;
@@ -354,8 +363,102 @@ padding: 0;
     }
 
     p{
-        font-size: 3.2rem;
+        font-size: 4.2rem;
     }
+  }
+
+
+
+  .hot{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .hot .themeButton {
+  background-color:#FFD07F;
+  font-family: 'Patrick Hand', 'Philosopher', sans-serif;
+  border: none;
+  margin-right: 2rem;
+    animation: wiggle 200ms 1s 8 alternate;
+    box-shadow: 1px 1px 1px 0px grey;
+    height: 5rem;
+    width: 19rem;
+    font-size: 2rem;
+  }
+  .hot .themeButton:hover {
+    background-color:#f5e2c0;
+      animation: wiggle 200ms 1s 8 alternate;
+    }
+  
+
+  .hot .logo {
+  background-image: url("Images/logo1.png");
+  position: static;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50vw;
+  height: 25vh;
+  margin: auto;
+  }
+
+  .hot .homecolContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+    h2{
+      width: 100vw;
+        font-size:5.5rem;
+        margin: 1.5rem;
+    }
+  }
+  
+  .hot .homecol {
+    align-self: center;
+    border-radius: 5%;
+  background-color:#F77E21;
+  margin: auto;
+  text-align: center;
+  height:100%;
+  margin-top: .5rem;
+  width: 60vw;
+  margin-bottom:2rem;
+  height: 15vh;
+  padding: 1.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  h3{
+      font-size: 4.5rem;
+      margin-bottom: 3rem;
+  }
+
+  p{
+      font-size:4rem;
+  }
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .hot .homecol:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color:#eeba92;
+  }
+
+    .hot .dltt{
+    font-family: 'Fredoka One', cursive;
+    display: inline-block;
+    font-size: 3.2rem;
+    margin: auto;
+    margin-right:1rem;
+  }
+  
+  .hot .dltt:hover {
+
+    animation: wiggle-nudge 100ms ease-out;
+  
   }
 
   

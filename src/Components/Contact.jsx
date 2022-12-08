@@ -1,7 +1,9 @@
 import "./Styles/contact.css";
 import React from 'react';
 import ContactForm from "./contactForm";
+import GDCV from "./Styles/Images/GDCV.pdf"
 
+import WDCV from "./Styles/Images/WDCV.pdf"
 function Contact(){
   return (
     <div className=" contactContainer">
@@ -21,11 +23,11 @@ function Contact(){
       <h3>Email: darronmgordon@gmail.com </h3>
 
       <div className="gdcvLinkCon">
-      <h4><a href="GDCV.pdf">Game Development CV</a></h4>
+      <h4><a href={GDCV} download>Game Development CV</a></h4>
       </div>
 
       <div className="wdcvLinkCon">
-      <h4><a href="WDCV.pdf">Website Development CV</a></h4>
+      <h4><a href={WDCV} download>Website Development CV</a></h4>
       </div>
 
       </div>

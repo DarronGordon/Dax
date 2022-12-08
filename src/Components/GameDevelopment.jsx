@@ -25,10 +25,10 @@ function GameDevelopment() {
     <SidePanel />
 </div>
 
-      <div className="gameDevAbout">
+      {/* <div className="gameDevAbout">
        <p>{content[3].profile}</p>
         <p style={{marginBottom:"250px"}}>{content[3].about}</p>
-      </div>
+      </div> */}
    
      
 

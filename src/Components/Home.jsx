@@ -33,7 +33,9 @@ function Home() {
     <div class="homeIntro">
     <img class="profile_img" src={profilePic} alt = "A picture of Darron" />
     <h4> Hi i'm Darron.</h4>
+   
     <p class = "introP" > Web & Software Developer, HVAC & BMS / BAC Specialist, Martial Artist. </p>
+    <h5 style={{color:"#f5a66a",fontSize:"3.5rem", margin:"8rem", width:"100vw",textAlign:"center"}}> Please have a look through my portfolio and have a look at the interactive site COMING SOON!.</h5>
     </div>
 
     <div className="Logo">

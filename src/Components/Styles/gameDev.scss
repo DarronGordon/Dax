@@ -337,7 +337,8 @@ html{
 
             .GP_Main{
                 display: flex;
-                flex-flow: column;
+                flex-flow: wrap;
+                flex-direction: row;
                 justify-content: center;
                 text-align: center;
                 margin:auto;
@@ -346,11 +347,12 @@ html{
               }
               .GP_Main h1{
                 margin: auto;
-                font-size: 4.5rem;
+                font-size: 8.5rem;
                 font-family: 'Fredoka One', cursive;
                 text-decoration: underline;
                 margin-bottom: 1.8rem;
                 align-items: center;
+                width: 100vw;
                 color: white;
               }
               
@@ -373,7 +375,7 @@ html{
                 background-position: center;
                 border-radius: 5%;
                 height: 40vh;
-                width: 80vw;
+                width: 40vw;
               }
               .Gp_box:hover{
                 display: inline-block;
@@ -382,7 +384,7 @@ html{
                 background-color:grey;
                 vertical-align: middle;
                 height: 45vh;
-                width: 85vw;
+                width: 45vw;
               }
 
 
@@ -478,4 +480,211 @@ html{
                 height: 80%;
               }
               
+              @media(min-width:65rem)
+              {
+                .gameDevAbout{
+                  background-image: linear-gradient(rgb(80, 80, 80),black);
+                  margin-top: 5em;
+                  padding: 2vh 10vh;
+            color: white;
+            border-radius: 2%;
+            font-family: 'Indie Flower', cursive;
+            font-size: 4.4em;
+                }
+
+
+ .gameDevContainer
+{
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+
+  
+                .gameDevHeading h3{
+                  margin:auto;
+                  color: white;
+                  font-size:5.5rem;
+                  margin-bottom: 2rem;
+                }
+                .gameDevHeading a{
+                  color:grey;
+                }
+                .gameDevHeading a:hover{
+                  color:lightblue;
+                  font-size: 1.2em;
+                }
+              
+
+
+
+                .slideContainer{
+                  width: 80vw;
+                  height: 100%;
+                  margin: 0 auto;
+                  display: inline-block;
+                }
+                
+                .slide > div{
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  background-size: contain;
+                  background-position: 50% 50%;
+                  background-repeat:no-repeat;
+                  height:50vh;
+                  
+                }
           
+                .cvLink{
+          
+                  margin: auto;
+                  margin-top: 5vh;
+                    text-align: center
+              }
+              .itchlink{
+                  margin: auto;
+                  margin-top: 5vh;
+                    text-align: center
+              }
+              .gameDevSidePanel{
+                  display: flex;
+                  flex-direction:column;
+                  justify-content: left;
+                  justify-self: left;
+                  margin: auto;
+                 float: left; 
+                 left: 0;
+                  text-align: center;
+                  font-size: 3rem;
+                  background-color: #362222;
+                  color: white;
+                  width:15vw;
+                  border-radius:1%;
+                  padding-bottom: 2rem;
+          
+                  p{
+                      font-size: 3rem;
+                  }
+          
+                }
+
+                .gameDevRefContainer{
+                  color: wheat;
+                  font-size: 5em;
+                  margin: auto;
+                  width: 85vw;
+                  
+                 }
+                 .grid-box{
+                  display: flex;
+                  flex-direction: row;
+                  flex-wrap: wrap;
+                }
+                 .three-images{
+                   width: 25vw;
+                   margin: auto;
+                   justify-content: center;
+                   text-align: center;
+                  font-size:3.2rem;
+                  margin: auto;
+                   
+                  li{
+                   list-style: none;
+                  }
+                  
+                   }
+                   .three-image h4{
+                       text-align: center;
+                       vertical-align: middle;
+                       margin-top: 30%;
+                     }
+                     
+                     .three-images h4{
+                       text-align: center;
+                       vertical-align: middle;
+                     
+                     }
+       
+                     
+                     .imgone{
+                       width: 200px;
+                       height: 200px;
+                     background-color: red;
+                     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+                     
+                     }
+                     .imgone:hover{
+                       background-color: pink;
+                       width: 210px;
+                       height: 210px;
+                       cursor: pointer;
+                       border: none;
+                       box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.5);
+                     }
+                     
+                     .imgtwo{
+                     
+                         width: 200px;
+                         height: 200px;
+                       background-color: blue;
+                     }
+                     .imgtwo:hover{
+                     
+                         width: 210px;
+                         height: 210px;
+                       background-color: lightblue;
+                       border: none;
+                       box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.5);
+                       cursor: pointer;
+                     }
+                     .imgthree{
+                     
+                         width: 200px;
+                         height: 200px;
+                       background-color: green;
+                     
+                     }
+                     .imgthree:hover{
+                       border: none;
+                       box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.5);
+                         width: 210px;
+                         height: 210px;
+                       background-color: lightgreen;
+                       cursor: pointer;
+                     
+                     }
+           
+           
+                     .disc{
+                       background-color:#455f7c;
+                       width:100%;
+                       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+                       vertical-align: middle;
+                       border-radius: 2%;
+                       
+                       }
+                       
+                       .disc h2{
+                         text-align: center;
+                           font-family: 'Fredoka One', cursive;
+                       }
+                       .disc h3{
+                         text-align: center;
+                         font-family: 'Fredoka One', cursive;
+                       }
+                       .disc li{
+                         margin-right: 60px;
+                         list-style: none;
+                         text-align: center;
+                         font-family: 'Fredoka One', cursive;
+                       }
+              }

@@ -17,7 +17,7 @@ const Development = () => {
 <WordCloud />
 <WebDevIntro one="one" className="webDevIntro webDevIntroRight"/>
 
-<h3 style={{fontSize:"2rem", marginTop:"1rem"}}>Check out my states below!</h3>
+<h3 >Check out my states below!</h3>
 <WebDevSkill />
 
 <hr className="webDevHr"/>

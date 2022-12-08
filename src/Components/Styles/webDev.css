@@ -82,7 +82,7 @@ margin-bottom: 5%;
 }
 
 .gallery {
-  --s: 120px; /* control the size */
+  --s: 30vw; /* control the size */
   --g: 10px;  /* control the gap */
   display: grid;
   text-align: center;
@@ -122,7 +122,7 @@ transition: .2s linear;
   text-align: center;
   margin:auto;
   align-items: center;
-  height: 40vh;
+  height: 90vh;
 }
 .GP_MainW h1{
   margin: auto;
@@ -166,8 +166,38 @@ transition: .2s linear;
 }
 
 
-@media(min-width:50rem)
+@media(min-width:65rem)
 {
+
+  .wordCloudSpan{
+
+  }
+
+  .webDevProfile{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+    opacity: .9;
+    text-align: center;
+    background-image:url("./Images/webDevInfoBg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 75vw;
+    height: 20vh;
+    padding:0;
+    padding-top: .5rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color:rgb(0, 0, 0);
+    
+  }
+  .devHeader h1{
+    font-size:8rem;
+  }
+  .devBody{
+    margin-top:12rem;
+    background-image: linear-gradient(white, rgb(20, 155, 218));
+  }
   .devHeader{
 font-family: "WebDevHeader",sans-serif;
 animation: wiggle-nudge 100ms ease-out;
@@ -179,9 +209,37 @@ animation: wiggle-nudge 100ms ease-out;
         background-color: #C6DCE4;
 }
 
+.webDevProfile{
+  margin-top: 10rem;
+}
+
+.webDevProfile h4{
+  font-size:4.5rem;
+  text-align: center;
+  align-items: center;
+  align-self:center ;
+  margin:auto;
+  padding:9rem;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.webDevIntroLeft{
+margin-bottom:5rem;
+  margin-top: 10rem;
+
+}
+
+.webDevIntroLeft h4{
+  font-size:4.5rem;
+  text-align: center;
+  margin:0%;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  padding: 9rem;
+}
+
 .gallery {
-  --s: 180px; /* controls the size */
-    --g: 20px;  /* control the gap */
+  --s:25vh; /* controls the size */
+    --g:80px;  /* control the gap */
   display: grid;
   place-content: center;
   margin: 13rem 7rem;
@@ -204,14 +262,20 @@ transition: .2s linear;
   --_t: 1.2;
 }
 
+.ClickME{
+width:50rem;
+height:50rem;
+}
+
 .ClickMeContainer{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content:left;
   margin: 0;
-text-align: center;
+text-align:left;
 vertical-align: middle;
 align-items: center;
+
 }
 
 .ClickMeItem{
@@ -221,6 +285,13 @@ vertical-align: middle;
 text-align: center;
 }
 
+.webSkillTree h4{
+  font-size:5.5rem;
+  }
+
+.webSkillTree li{
+font-size: 4rem;
+}
 
   }
 
@@ -270,8 +341,10 @@ list-style: none;
 .webDevMidBod{
   width: 80%;
   margin:auto;
+border-radius: 2%;
+    /*  background-image: linear-gradient(#C6DCE4, rgb(6, 69, 99));*/
       background-color: #C6DCE4;
-      font-size:2.5rem;
+      font-size:4.5rem;
       display: block;
 }
 
@@ -280,14 +353,14 @@ display: none;
 }
 
 .skillbar{
-  font-size: 1.9rem;
+  font-size:3.5rem;
   text-align: left;
 }
 
 .devBody h3{
   text-align: center;
   margin:auto;
-  font-size: 2.5rem;
+  font-size:4.5rem;
 }
 
 .skills {
@@ -314,7 +387,8 @@ display: none;
 .WebDevGp_box{
   height: 40vh;
   width: 40vw;
-  background-color: #C6DCE4;
+  /*background-color: #C6DCE4;*/
+  background-image: radial-gradient(#0d759b,#C6DCE4);
   display: inline-block;
   margin: 2%;
   color: black;
@@ -329,19 +403,18 @@ display: none;
 .webDevSkillBod button{
 animation: wiggle 200ms 1s 8 alternate;
   height: 5vh;
-  width: 20vw;
+  width: 7vw;
   margin:auto;
   cursor: pointer;
-  background-color: #7ab7f1;
-font-size: 2rem;
+  background-image: radial-gradient(rgb(180, 12, 12),rgb(255, 38, 0));
+font-size:3.2rem;
 }
 
 .webDevSkillBod button:hover{
-  width: auto;
+  width: 7vw;
   height: 5vh;
 animation: wiggle-nudge 100ms ease-out;
-
-background-color: #0e7de6;
+background-image: radial-gradient(rgb(223, 223, 223),rgb(255, 38, 0));
   cursor: pointer;
 }
 

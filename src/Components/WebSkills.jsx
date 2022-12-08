@@ -1,6 +1,6 @@
 
 import React from "react" ;
-
+import "./Styles/webDev.css";
 function WebSkills(){
   return( <div className="webSkillTree ">
 
@@ -19,6 +19,7 @@ function WebSkills(){
     <li>React.js</li>
     <li>html</li>
     <li>CSS/Sass</li>
+    <li>FlexBox</li>
     <li>Bootstrap</li>
     </ul>
     </div>
@@ -37,6 +38,7 @@ function WebSkills(){
     <div className="webSkillBranch sourceControl">
     <h4>Source-Control</h4>
     <ul>
+    <li>Git</li>
     <li>Git-Hub</li>
     <li>Git-Lab</li>
     <li>Source Tree</li>
