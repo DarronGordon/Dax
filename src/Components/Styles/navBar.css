@@ -7,7 +7,7 @@
 position: fixed;
 top: 0;
 z-index: 10;
-font-family: 'Patrick Hand', cursive;
+font-family: 'Vollkorn SC', serif;
 font-size:1.3rem;
 
 }
@@ -142,8 +142,8 @@ background: white;
     position: fixed;
     top: 0;
     z-index: 2;
-    font-family: 'Patrick Hand', cursive;
-    font-size:4.3rem;
+    font-family: 'Vollkorn SC', serif;
+    font-size:1.2rem;
     }
 
     .main-header .img{
@@ -151,8 +151,8 @@ background: white;
       left:4rem;
       display: inline-block;
       background-image: url("Images/logo2.png");
-      height: 12rem;
-      width: 20rem;
+      height:3rem;
+      width:3rem;
       background-repeat: no-repeat;
      background-size: contain;
       background-position: center;
@@ -163,8 +163,8 @@ background: white;
       left:4rem;
       display: inline-block;
       background-image: url("Images/colourBear.png");
-      height:20rem;
-      width:25rem;
+      height:3rem;
+      width:3rem;
       background-repeat: no-repeat;
      background-size: contain;
       background-position: center;
@@ -175,8 +175,8 @@ background: white;
         left:4rem;
         display: inline-block;
         background-image: url("Images/world.png");
-        height: 8rem;
-        width: 8rem;
+        height:3rem;
+        width: 3rem;
         background-repeat: no-repeat;
        background-size: contain;
         background-position: center;
@@ -187,21 +187,18 @@ background: white;
           left:4rem;
           display: inline-block;
           background-image: url("Images/phone.png");
-          height:8rem;
-          width: 8rem;
+          height: 3rem;
+          width: 3rem;
           background-repeat: no-repeat;
          background-size: contain;
           background-position: center;
           vertical-align: middle;
         }
 
-        
-
     .main-navItem a{
       text-decoration: none;
       color:lightgrey;
-      font-size: 4.3rem;
+      font-size: 1.2rem;
       display:inline-block;
-      margin: 2.8rem;
     }
 }

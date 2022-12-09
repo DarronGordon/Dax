@@ -159,9 +159,11 @@ html{
         flex-direction: column;
         margin-right: 2rem;
         align-items: center;
+        font-family: 'Henny Penny', cursive;
         li{
             list-style: none;
             margin: .8rem;
+            font-family: 'Aclonica', sans-serif;
         }
       }
 
@@ -187,6 +189,7 @@ html{
         a{
             margin: 1rem;
             color: white;
+            font-family: 'Vollkorn SC', serif;
         }
         
         a:hover{
@@ -217,6 +220,7 @@ html{
         
        li{
         list-style: none;
+        font-size: 1.2rem;
        }
        
         }
@@ -321,12 +325,15 @@ html{
             }
             .pg-link{
                 color: wheat;
+                font-family: 'Henny Penny', cursive;
             }
             .cvLink h3 a{
                 color: white;
+                font-family: 'Vollkorn SC', serif;
             }
             .linkz h4 a{
                 color: white;
+                font-family: 'Vollkorn SC', serif;
             }
             .cvLink h3 a:hover{
                 color: rgb(218, 255, 7);
@@ -344,11 +351,12 @@ html{
                 margin:auto;
                 align-items: center;
                 height: 180vh;
+                
               }
               .GP_Main h1{
                 margin: auto;
-                font-size: 8.5rem;
-                font-family: 'Fredoka One', cursive;
+                font-size: 4.5rem;
+                font-family: 'Henny Penny', cursive;
                 text-decoration: underline;
                 margin-bottom: 1.8rem;
                 align-items: center;
@@ -362,6 +370,7 @@ html{
                 margin: 0;
                 padding: 2%;
                 font-size: 1.3rem;
+                font-family: 'Henny Penny', cursive;
               }
               
               
@@ -374,7 +383,7 @@ html{
                 background-size: contain;
                 background-position: center;
                 border-radius: 5%;
-                height: 40vh;
+                height:30vh;
                 width: 40vw;
               }
               .Gp_box:hover{
@@ -383,8 +392,8 @@ html{
                 margin: 2%;
                 background-color:grey;
                 vertical-align: middle;
-                height: 45vh;
-                width: 45vw;
+                height: 31vh;
+                width: 40vw;
               }
 
 
@@ -482,14 +491,18 @@ html{
               
               @media(min-width:65rem)
               {
+                .pg-gitgud{
+                  font-size:1.5rem;
+                  margin: 0 2rem;
+                }
                 .gameDevAbout{
                   background-image: linear-gradient(rgb(80, 80, 80),black);
-                  margin-top: 5em;
+                  margin-top:2em;
                   padding: 2vh 10vh;
             color: white;
             border-radius: 2%;
             font-family: 'Indie Flower', cursive;
-            font-size: 4.4em;
+            font-size: 1.4em;
                 }
 
 
@@ -501,10 +514,25 @@ html{
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    background-color: rgb(0, 0, 0);
-    margin: auto;
+    background-image: linear-gradient(rgb(46, 44, 44),black);
+    margin:0;
+    padding: 0;
     overflow-x: hidden;
     width: 100vw;
+    font-size: 1.2rem;
+}
+.GP_Main{
+  margin:0;
+  padding: 0;
+}
+.GP_Main h1{
+  margin:0;
+  padding: 0;
+}
+.Gp_box{
+  width:25rem;
+  height:15rem;
+  margin: auto;
 }
 
 
@@ -512,8 +540,9 @@ html{
                 .gameDevHeading h3{
                   margin:auto;
                   color: white;
-                  font-size:5.5rem;
+                  font-size:2.5rem;
                   margin-bottom: 2rem;
+                  font-family: 'Henny Penny', cursive;
                 }
                 .gameDevHeading a{
                   color:grey;
@@ -523,9 +552,6 @@ html{
                   font-size: 1.2em;
                 }
               
-
-
-
                 .slideContainer{
                   width: 80vw;
                   height: 100%;
@@ -540,7 +566,7 @@ html{
                   background-size: contain;
                   background-position: 50% 50%;
                   background-repeat:no-repeat;
-                  height:50vh;
+                  height:80vh;
                   
                 }
           
@@ -548,12 +574,14 @@ html{
           
                   margin: auto;
                   margin-top: 5vh;
-                    text-align: center
+                    text-align: center;
+                    font-family: 'Vollkorn SC', serif;
               }
               .itchlink{
                   margin: auto;
                   margin-top: 5vh;
-                    text-align: center
+                    text-align: center;
+                    font-family: 'Vollkorn SC', serif;
               }
               .gameDevSidePanel{
                   display: flex;
@@ -564,7 +592,7 @@ html{
                  float: left; 
                  left: 0;
                   text-align: center;
-                  font-size: 3rem;
+                  font-size:2rem;
                   background-color: #362222;
                   color: white;
                   width:15vw;
@@ -572,14 +600,15 @@ html{
                   padding-bottom: 2rem;
           
                   p{
-                      font-size: 3rem;
+                      font-size: 1.5rem;
+                      font-family: 'Aclonica', sans-serif;
                   }
           
                 }
 
                 .gameDevRefContainer{
                   color: wheat;
-                  font-size: 5em;
+                  font-size: 2rem;
                   margin: auto;
                   width: 85vw;
                   
@@ -594,7 +623,7 @@ html{
                    margin: auto;
                    justify-content: center;
                    text-align: center;
-                  font-size:3.2rem;
+                  font-size:1.5rem;
                   margin: auto;
                    
                   li{
@@ -611,21 +640,22 @@ html{
                      .three-images h4{
                        text-align: center;
                        vertical-align: middle;
-                     
+                       font-family: 'Henny Penny', cursive;
                      }
        
                      
-                     .imgone{
-                       width: 200px;
-                       height: 200px;
+                     .imgone{ 
+                      margin:0 ;
+                       width: 150px;
+                       height:150px;
                      background-color: red;
                      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
                      
                      }
                      .imgone:hover{
                        background-color: pink;
-                       width: 210px;
-                       height: 210px;
+                       width: 160px;
+                       height: 160px;
                        cursor: pointer;
                        border: none;
                        box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.5);
@@ -633,14 +663,14 @@ html{
                      
                      .imgtwo{
                      
-                         width: 200px;
-                         height: 200px;
+                         width:150px;
+                         height:150px;
                        background-color: blue;
                      }
                      .imgtwo:hover{
                      
-                         width: 210px;
-                         height: 210px;
+                         width: 160px;
+                         height: 160px;
                        background-color: lightblue;
                        border: none;
                        box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.5);
@@ -648,16 +678,16 @@ html{
                      }
                      .imgthree{
                      
-                         width: 200px;
-                         height: 200px;
+                         width:150px;
+                         height:150px;
                        background-color: green;
                      
                      }
                      .imgthree:hover{
                        border: none;
                        box-shadow: 1px 1px 0px 1px rgba(0,0,0,0.5);
-                         width: 210px;
-                         height: 210px;
+                         width:160px;
+                         height:160px;
                        background-color: lightgreen;
                        cursor: pointer;
                      
@@ -675,16 +705,18 @@ html{
                        
                        .disc h2{
                          text-align: center;
-                           font-family: 'Fredoka One', cursive;
+                         font-family: 'Henny Penny', cursive;
+                         color: lavenderblush;
                        }
                        .disc h3{
                          text-align: center;
-                         font-family: 'Fredoka One', cursive;
+                         font-family: 'Henny Penny', cursive;
+                         color: lavenderblush;
                        }
                        .disc li{
                          margin-right: 60px;
                          list-style: none;
                          text-align: center;
-                         font-family: 'Fredoka One', cursive;
+                         font-family: 'Aclonica', sans-serif;
                        }
               }

@@ -44,23 +44,10 @@ const data = [
   { value: 'TypeScript', count: 15 },
   { value: 'FlexBox', count: 30 },
   { value: 'NPM', count: 11 },
+  { value: 'HTML5', count: 33 },
+  { value: 'TypeScript', count: 15 },
   { value: 'FlexBox', count: 30 },
   { value: 'NPM', count: 11 },
-  { value: 'Unity', count: 33 },
-  { value: 'Nodejs', count: 28 },
-  { value: 'Express.js', count: 25 },
-  { value: 'Git', count: 15 },
-  { value: 'Mocha', count: 17 },
-  { value: 'jQuery', count: 25 },
-  { value: 'MongoDB', count: 18 },
-  { value: 'CSS', count: 20 },
-  { value: 'WebGL', count: 22 },
-  { value: 'Babel.js', count: 7 },
-  { value: 'SASS', count: 25 },
-  { value: 'C#/.Net', count: 27 },
-
-
-
 ]
 /* CSS:
 @keyframes blinker {
@@ -89,6 +76,6 @@ const customRenderer = (tag, size, color) => (
 )
 
 export default () => (<div className="wordBubble">
-  <TagCloud tags={data} minSize={1} maxSize={10} renderer={customRenderer} />
+  <TagCloud tags={data} minSize={1} maxSize={5} renderer={customRenderer} />
   </div>
 )

@@ -2,42 +2,63 @@
     margin: 0;
 }
 
+
+
+// font-family: 'Aclonica', sans-serif;
+// font-family: 'Alfa Slab One', cursive;
+// font-family: 'Henny Penny', cursive;
+// font-family: 'Unbounded', cursive;
+// font-family: 'Vollkorn SC', serif;
+
 .homeContainer{
 display: flex;
 flex-direction: column;
 }
 
 div > .neutral {
-    background-color:lightgrey;
+  background-image: linear-gradient(rgb(206, 204, 204),rgb(32, 53, 4));
   }
+  div > .hot{
+    background-image: linear-gradient(rgb(235, 235, 235),#701f06);
+    }
 
    h1 {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Alfa Slab One', cursive;
     font-size:4rem;
   }
+  .main-header{
+        margin-bottom: 3rem;
+  }
 
+  .themeChangerContainer{
+    margin-top: 3rem;
+  }
   
   .neutral .dltt{
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Vollkorn SC', serif;
     display: inline-block;
     font-size: 1.2rem;
     margin: auto;
     margin-right:1rem;
+
   }
   
   .neutral .dltt:hover {
   display: inline-block;
     animation: wiggle-nudge 100ms ease-out;
-  
+
   }
   
   .neutral .themeButton {
     background-color:#ACB992;
-      font-family: 'Patrick Hand', 'Philosopher', sans-serif;
+    font-family: 'Unbounded', cursive;
     border: none;
+    font-size: 2rem;
     margin-right: 2rem;
       animation: wiggle 200ms 1s 8 alternate;
       box-shadow: 1px 1px 1px 0px grey;
+      width:10rem;
+      height:4vh;
   }
   .neutral .themeButton:hover {
     background-color:#e1e7d3;
@@ -62,7 +83,7 @@ div > .neutral {
   }
   
    .homeIntro h4 {
-      font-family: 'Fredoka One', cursive;
+    font-family: 'Unbounded', cursive;
       margin: auto;
       text-align: center;
       font-size: 2.8rem;
@@ -73,7 +94,7 @@ div > .neutral {
 
   
   .introP {
-    font-family: 'Patrick Hand', 'Philosopher', sans-serif;
+    font-family: 'Unbounded', cursive;
     font-size: 1.5rem;
     color: black;
     text-align: center;
@@ -81,7 +102,7 @@ div > .neutral {
   }
   
   .neutral h2 {
-      font-family: 'Fredoka One', cursive;
+    font-family:'Alfa Slab One', cursive;
     text-align: center;
     display: block;
     margin: auto;
@@ -109,6 +130,8 @@ div > .neutral {
     flex-direction: column;
     h2{
         font-size: 2.5rem;
+        color: #758040;
+        font-family: 'Fredoka One', cursive;
     }
 }
   .neutral .homecol {
@@ -120,13 +143,16 @@ div > .neutral {
     margin-bottom:2rem;
     width: 75%;
     padding: 1.5rem;
+    border-radius: 2%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     h3{
         font-size: 2.5rem;
+        font-family:'Alfa Slab One', cursive;
     }
 
     p{
-        font-size: 2rem;
+        font-size: 2.4rem;
+        font-family: 'Unbounded', cursive;
     }
   }
   .neutral .homecol:hover 
@@ -150,11 +176,12 @@ div > .neutral {
 }
   
 .neutral .dltt{
-    font-family: 'Fredoka One', cursive;
+  font-family: 'Unbounded', cursive;
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     margin: auto;
     margin-right:1rem;
+    
   }
   
   .neutral .dltt:hover {
@@ -169,11 +196,22 @@ div > .neutral {
     text-align: center;
     margin: auto;
   }
+  .hot .dltt{
+    font-family: 'Unbounded', cursive;
+    display: inline-block;
+    font-size: 2.2rem;
+    margin: auto;
+    margin-right:1rem;
+    
+  }
   
   .hot .themeButton {
   background-color:#FFD07F;
     animation: wiggle 200ms 1s 8 alternate;
       box-shadow: 1px 1px 1px 0px grey;
+      width:10rem;
+      height:4vh;
+      font-size: 2rem;
   }
   .hot .themeButton:hover {
     background-color:#f5e2c0;
@@ -198,6 +236,7 @@ div > .neutral {
   margin:auto;
   text-align:center ;
 padding: 0;
+font-size: 2rem;
   }
   
   .hot .homecol {
@@ -212,6 +251,16 @@ padding: 0;
   font-size: 2.5rem;
   padding: 1rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  h3{
+    font-size: 2.5rem;
+    font-family:'Alfa Slab One', cursive;
+}
+
+p{
+    font-size: 2.4rem;
+    font-family: 'Unbounded', cursive;
+}
   }
   .hot .homecol:hover {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -219,12 +268,21 @@ padding: 0;
   }
 
   @media(min-width:65rem){
+
+    div > .neutral {
+      background-image: linear-gradient(rgb(206, 204, 204),rgb(32, 53, 4));
+      }
+
+      div > .hot{
+        background-image: linear-gradient(rgb(235, 235, 235),#701f06);
+        }
+
     .homeContainer{
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       background-image: linear-gradient(white,rgb(18, 29, 4));
-      margin-top:9rem;
+      margin-top:1.2rem;
       padding: 0;
       }
       
@@ -233,12 +291,14 @@ padding: 0;
     flex-direction:row;
     flex-wrap: wrap;
     margin-top: 2.5rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2.5rem;
   }
   
     h1 {
-      font-family: 'Fredoka One', cursive;
-      font-size:14rem;
+      font-family: 'Alfa Slab One', cursive;
+      font-size:4rem;
+      margin: auto;
+      margin-top: 3rem;
     }
   
     h1:hover {
@@ -257,10 +317,10 @@ padding: 0;
   }
 
   .homeIntro h4 {
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Unbounded', cursive;
     margin: auto;
     text-align:left;
-    font-size:6rem;
+    font-size:2.5rem;
   animation: rotateHeading 0.8s;
   margin-top:6rem;
   margin-bottom: 2rem;
@@ -272,13 +332,14 @@ padding: 0;
 }
 
 .introP {
-  font-family: 'Patrick Hand', 'Philosopher', sans-serif;
-  font-size:3.5rem;
+  font-family: 'Unbounded', cursive;
+  font-size:1.5rem;
   color: black;
   text-align: center;
-  padding-left: 9px;
+  padding-left: 1rem;
   width: 50vw;
   margin-top:4.5rem;
+
 }
 
   .neutral .logo {
@@ -293,9 +354,9 @@ padding: 0;
   }
 
   .neutral .dltt{
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Vollkorn SC', serif;
     display: inline-block;
-    font-size: 3.2rem;
+    font-size: 1.5rem;
     margin: auto;
     margin-right:1rem;
   }
@@ -308,14 +369,14 @@ padding: 0;
 
   .neutral .themeButton {
     background-color:#ACB992;
-      font-family: 'Patrick Hand', 'Philosopher', sans-serif;
+    font-family: 'Vollkorn SC', serif;
     border: none;
     margin-right: 2rem;
       animation: wiggle 200ms 1s 8 alternate;
       box-shadow: 1px 1px 1px 0px grey;
-      height: 5rem;
-      width: 9rem;
-      font-size: 2rem;
+      height: 3rem;
+      width:7rem;
+      font-size: 1.2rem;
   }
   .neutral .themeButton:hover {
     background-color:#e1e7d3;
@@ -338,7 +399,7 @@ padding: 0;
     
     h2{
       width: 100vw;
-        font-size: 3.5rem;
+        font-size: 1.5rem;
         color: #f5a66a;
     }
 }
@@ -352,18 +413,21 @@ padding: 0;
     height:100%;
     margin-bottom:2rem;
     width: 20vw;
-    height: 10vh;
+    height: 100%;
     padding: 1.5rem;
     margin: 3.5rem;
     border-radius: 2%;
+    
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     h3{
-        font-size: 3.5rem;
+        font-size: 1.5rem;
         margin-bottom: 3rem;
+        font-family: 'Alfa Slab One', cursive;
     }
 
     p{
-        font-size: 4.2rem;
+        font-size: 1.5rem;
+        font-family: 'Unbounded', cursive;
     }
   }
 
@@ -374,18 +438,23 @@ padding: 0;
     justify-content: center;
     text-align: center;
     margin: auto;
+
+    h1{
+      font-size: 3rem;
+      font-family: 'Alfa Slab One', cursive;
+    }
   }
   
   .hot .themeButton {
   background-color:#FFD07F;
-  font-family: 'Patrick Hand', 'Philosopher', sans-serif;
+  font-family: 'Vollkorn SC', serif;
   border: none;
-  margin-right: 2rem;
+  margin: 2rem;
     animation: wiggle 200ms 1s 8 alternate;
     box-shadow: 1px 1px 1px 0px grey;
-    height: 5rem;
-    width: 19rem;
-    font-size: 2rem;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.2rem;
   }
   .hot .themeButton:hover {
     background-color:#f5e2c0;
@@ -395,18 +464,19 @@ padding: 0;
 
   .hot .logo {
   background-image: url("Images/logo1.png");
-  position: static;
   background-repeat: no-repeat;
   background-size: contain;
   width: 50vw;
   height: 25vh;
   margin: auto;
+  text-align: center;
   }
 
   .hot .homecolContainer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -414,31 +484,36 @@ padding: 0;
     margin: auto;
     h2{
       width: 100vw;
-        font-size:5.5rem;
+        font-size:1.5rem;
         margin: 1.5rem;
+        color: #cef027;
     }
   }
   
   .hot .homecol {
     align-self: center;
     border-radius: 5%;
-  background-color:#F77E21;
+  //background-color:#F77E21;
+  background-image:radial-gradient(#F77E21,#d38b53);
   margin: auto;
   text-align: center;
   height:100%;
   margin-top: .5rem;
-  width: 60vw;
+  width: 40vw;
   margin-bottom:2rem;
-  height: 15vh;
-  padding: 1.5rem;
+  height: 40vh;
+  padding:2rem;
+  
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   h3{
-      font-size: 4.5rem;
+      font-size:2rem;
       margin-bottom: 3rem;
+      font-family: 'Alfa Slab One', cursive;
   }
 
   p{
-      font-size:4rem;
+      font-size:1.5rem;
+      font-family: 'Unbounded', cursive;
   }
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   }
@@ -448,9 +523,9 @@ padding: 0;
   }
 
     .hot .dltt{
-    font-family: 'Fredoka One', cursive;
+      font-family: 'Vollkorn SC', serif;
     display: inline-block;
-    font-size: 3.2rem;
+    font-size: 1.2rem;
     margin: auto;
     margin-right:1rem;
   }

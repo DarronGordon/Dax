@@ -15,7 +15,7 @@ function Contact(){
     <ContactForm />
     </div>
 
-<h2 style={{fontSize:"4rem"}}>OR</h2>
+<h2 style={{fontSize:"3rem"}}>OR</h2>
 
 <div className="contactme1 contactme ">
 
